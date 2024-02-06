@@ -1,0 +1,197 @@
+@excel_color: #47b347;
+@ppt_color: #f2733d;
+@word_color: #558ff2;
+@pdf_color: #b61515;
+@img_color: gren;
+@other_color: #c4c4c4;
+@more_color: #333333;
+@fontSize:13px;
+
+.ant-upload{
+    width:100% !important;
+}
+
+.AttachmentCell{
+   width:100%;
+   height:100%;
+   cursor: pointer;
+}
+
+.AttachmentCell_file_list_center{
+   text-align: center;
+   height:100%;
+   line-height: 27px;
+}
+
+.AttachmentCell_file_list{
+   font-size: 27px;
+   vertical-align: middle;
+}
+
+.AttachmentCell_file_list_div{
+   height:130px;
+//    width:200px;
+   overflow: auto;
+   .ant-tag-hidden {
+     display: block;
+   }
+}
+
+.AttachmentCell_file_list_file_tag{
+    background: #e5f4ff;
+    border: none;
+    border-radius: 30px;
+    margin: 5px 0px;
+    font-weight: normal;
+    padding: 0 7px 0 0px;
+    display: flex;
+    .ant-tag-close-icon{
+        line-height: 43px;
+    }
+}
+
+.AttachMentCell_file_list_file_text{
+    vertical-align: middle;
+    display: inline-block;
+    width: 140px;
+    overflow: hidden;
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+}
+
+.AttachmentCell_file_list_upload_btn{
+   margin:10px 0px;
+   width:100%;
+   font-size:13px;
+   height:28px;
+   line-height: 18px;
+}
+
+.AttachmentCell_file_list_excel{
+    color:@excel_color;
+}
+
+.AttachmentCell_file_list_ppt{
+    color:@ppt_color;
+}
+
+.AttachmentCell_file_list_word{
+    color:@word_color;
+}
+
+.AttachmentCell_file_list_pdf{
+    color:@pdf_color;
+}
+
+
+.AttachmentCell_file_list_img{
+    color:@img_color;
+}
+
+.AttachmentCell_file_list_other{
+    color:@other_color;
+}
+
+.AttachmentCell_file_list_more{
+    color:@more_color;
+}
+
+.AttachmentCell_file_list_excel_bg{
+    background:@excel_color;
+    font-size: @fontSize !important;
+}
+
+.AttachmentCell_file_list_ppt_bg{
+    background:@ppt_color;
+    font-size: @fontSize !important;
+}
+
+.AttachmentCell_file_list_word_bg{
+    background:@word_color;
+    font-size: @fontSize !important;
+}
+
+.AttachmentCell_file_list_pdf_bg{
+    background:@pdf_color;
+    font-size: @fontSize !important;
+}
+
+.AttachmentCell_file_list_img_bg{
+    background:@word_color;
+    font-size: @fontSize !important;
+}
+
+.AttachmentCell_file_list_other_bg{
+    background:@other_color;
+    font-size: @fontSize !important;
+}
+
+.AttachmentCell_file_more_count{
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.AttachmentCell_file_more {
+    margin:0px 3px;
+    color:white;
+    display: inline-block;
+    line-height: 30px;
+    width:21px;
+    height:27px;
+    background: #333333;
+    position:relative;
+    overflow: hidden;
+    vertical-align: middle;
+    border-radius: 1.5px;
+}
+
+.AttachmentCell_file_more .box-con{
+    width:9px;
+    height:9px;
+    position: absolute;
+    background: white;
+    top:-5px;
+    right:-5px;
+    transform: rotate(45deg);
+  }
+
+.AttachmentCell_file_add_icon{
+    color:#0073BB;
+    // margin-right:15px;
+    visibility: hidden;
+}
+
+.AttachmentCell_file_remove_icon{
+    color:#cccccc;
+    // margin-left:15px;
+    visibility: hidden;
+}
+
+.AttachmentCell:hover .AttachmentCell_file_add_icon{
+    visibility: visible;
+}
+
+// .AttachmentCell:hover .AttachmentCell_file_remove_icon{
+//     visibility: visible;
+// }
+
+.attachment_popover {
+  .ant-popover-inner-content {
+    padding: 8px 8px 0px 8px;
+  }
+}
+.ant-picker-dropdown{
+    pointer-events: visible;
+}
+.AttachmentCell_file_list_upload_input{
+    opacity: 0;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 28px;
+    z-index: 1;
+}
+ 

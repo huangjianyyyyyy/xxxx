@@ -1,0 +1,97 @@
+@import '../../../maintable/css/style/RowHeaderCell.less';
+
+.BraftEditorCell {
+  width: 100%;
+  height: 100%;
+  .BraftEditorCell_div {
+    height: 100%;
+    // width: 255px;
+    cursor: pointer;
+    line-height: 32px;
+    overflow: hidden;
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: -5px 0;
+    padding: 0 5px;
+    text-align: center;
+  }
+}
+
+.BraftEditorCell_popover {
+  width: 300px !important;
+}
+
+.BraftEditorCell_content {
+  height: 100px !important;
+  border: 1px solid #f2f3f3 !important;
+  border-radius: 3px !important;
+  font-size: 13px !important;
+}
+
+.BraftEditorCell_bottom {
+  display: flex;
+  margin-top: 10px;
+}
+
+.BraftEditorCell_save_div {
+  width: 50%;
+  text-align: right;
+}
+
+.BraftEditorCell_save {
+  height: 28px !important;
+  font-size: 13px;
+  line-height: 8px;
+}
+
+.BraftEditorCell_link_div {
+  width: 50%;
+  text-align: left;
+  color: @drawer_main_color;
+}
+
+.BraftEditorCell_link_span {
+  height: 28px !important;
+  font-size: 13px;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.BraftEditorCell_read_div {
+  height: 170px;
+  width: 100%;
+  border:1px dashed #dfe9e9;
+  border-radius: 5px;
+  overflow-y: auto;
+  word-break:break-all; 
+  word-wrap:break-word ;
+}
+
+.BraftEditorCell_btn_div{
+  height:30px;
+  background-color: #f2f3f38a;
+}
+
+.tooltip_inner_content{
+  max-height: 300px;
+  overflow-y: auto;
+}
+/*修改滚动条样式*/
+.tooltip_inner_content::-webkit-scrollbar{
+  width:5px;
+  // height:10px;
+}
+.tooltip_inner_content::-webkit-scrollbar-thumb{
+  background: #bfbfbf;
+  border-radius:2px;
+}
+.tooltip_inner_content::-webkit-scrollbar-thumb:hover{
+  background: #bfbfbf;
+}
+.ant-popover{
+  pointer-events: visible;
+}
+.tooltip_inner_content span{
+  color: white !important;
+}

@@ -1,0 +1,237 @@
+.people_cell {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // cursor: pointer;
+  span:first-child{
+    width: 100%;
+  }
+  .ant-avatar-string {
+    position: absolute;
+    left: 50%;
+    font-size: 13px;
+    -webkit-transform-origin: 0 center;
+    transform-origin: 0 center;
+    transform: scale(0.9) translateX(-50%) !important;
+  }
+}
+.popup_container {
+  .ant-popover-inner-content {
+    padding: 2px;
+  }
+
+  .ant-avatar-string {
+    position: absolute;
+    left: 50%;
+    font-size: 13px;
+    -webkit-transform-origin: 0 center;
+    transform-origin: 0 center;
+    transform: scale(0.85) translateX(-50%) !important;
+  }
+
+  .ant-popover-title {
+    border-bottom: none !important;
+    padding: 2px;
+  }
+
+  .ant-tag-hidden {
+    display: block;
+  }
+}
+
+
+
+.faceAvatar {
+  padding: 5px;
+}
+
+.searchInput {
+  margin: 0 0 5px 0;
+  border: none;
+  background: #f8f8f8;
+
+  .ant-input {
+    background: #f8f8f8;
+  }
+}
+
+.user {
+  margin: 5px 0px;
+  width: '100%';
+  cursor: pointer;
+}
+
+.user:hover {
+  background: #009aff;
+  color: white;
+  border-radius: 3px;
+}
+
+ .Avatar {
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 13px !important;
+  height: 25px;
+  width: 25px;
+}
+
+.userOptions {
+  display: none;
+}
+
+.userAvatar {
+  height: 100%;
+  width: 100%;
+
+  .ant-btn {
+    color: #b2b2b2 !important;
+    border: 1px solid #b2b2b2 !important;
+    cursor: unset;
+  }
+}
+
+.PlusCircleFilled {
+  color: #009aff;
+  position: relative;
+  display: none;
+  background-color: #fff;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.CloseCircleFilled {
+  color: #cccccc;
+}
+
+.people_cell:hover {
+  .PlusCircleFilled {
+    display: inline-block;
+  }
+}
+
+.userIcon {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.moreUserAvatar {
+  cursor: pointer;
+  right: 3px;
+  background: #333333 !important;
+  color: white;
+  font-size: 10px;
+  width: 25px !important;
+  height: 25px !important;
+  line-height: 25px !important;
+}
+.simplePeople_cell {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  .simpleCell{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .ant-avatar-string {
+    position: absolute;
+    left: 50%;
+    font-size: 13px;
+    -webkit-transform-origin: 0 center;
+    transform-origin: 0 center;
+    transform: scale(0.9) translateX(-50%) !important;
+  }
+}
+.simpleAvatar{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: #333333 !important;
+  color: white;
+  font-size: 10px;
+}
+.simplePeople_cell:hover {
+  .PlusCircleFilled {
+    display: inline-block;
+  }
+}
+.userTag {
+  background: #e5f4ff !important;
+  border: none !important;
+  border-radius: 30px !important;
+  margin: 5px !important;
+  font-weight: normal !important;
+  padding: 0 7px 0 0px !important;
+}
+
+.dividerStyle {
+  display: table;
+  margin: 0 !important;
+  color: #bfbfbf !important;
+  font-weight: normal !important;
+  font-size: 13px !important;
+  white-space: nowrap;
+  text-align: center;
+  background: transparent;
+}
+
+.user_scroll {
+  max-height: 150px;
+  overflow: hidden;
+}
+
+.user_scroll:hover {
+  overflow-y: auto;
+}
+
+.user_scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.user_scroll::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.selected_user {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // padding-left: 21px;
+}
+
+.clear_user {
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.ant-avatar > img {
+  border-radius: 50%;
+}
+
+.people_search_pop {
+  .ant-input-search,
+  .ant-input-affix-wrapper:focus {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+  }
+}
+.addPerson{
+  text-align: center;
+  color: #0073BB;
+  padding: 5px;
+  cursor: pointer;
+}

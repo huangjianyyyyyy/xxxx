@@ -1,0 +1,72 @@
+
+.DateCell{
+  width:0;
+  left: -100px;
+}
+// .ant-picker-suffix{
+//   color:#16191F !important;
+// }
+.date_picker_input{
+  visibility:hidden;
+  height:0px;
+  top:1px;
+  right:250px;
+  position:absolute;
+}
+
+.date_div {
+  width: 100%;
+  display: flex;
+  // cursor: pointer;
+  height: 100%;
+  .data_text{
+    width: 100%;
+    text-align: center;
+  }
+
+  .ant-picker {
+    height: 32px;
+    padding: 0;
+    border: none !important;
+  }
+
+  .ant-picker-input{
+    font-size: 13px;
+  }
+  .ant-picker-input > input{
+    color:#FFF !important;
+  }
+  
+  .ant-input {
+    padding: 0;
+    height: 28px !important;
+    box-shadow: none !important;
+    margin: 4px 2px 2px 2px;
+    box-sizing: border-box;
+  }
+}
+
+.date_display_input {
+  height: 100%;
+  width: 100%;
+  input{
+    background: unset;
+  }
+}
+
+.date_display_select {
+  .ant-input {
+    background: rgba(227, 230, 235, 0);
+    box-sizing: border-box;
+  }
+}
+.ant-picker-dropdown{
+  pointer-events: visible;
+}
+.statusDate{
+  position: absolute;
+  top: 10px ;
+  right: 2px;
+  color:green;
+  font-size: 16px;
+}

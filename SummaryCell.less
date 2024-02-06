@@ -1,0 +1,163 @@
+.default_summary_cell {
+  width: 100%;
+  height: 100%;
+  background-color: #f2f3f3;
+}
+
+.summary_cell {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid white;
+  background-color: #ffffff;
+}
+
+.board_summary_cell {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid white;
+  background-color: #fafafa;
+  border-top: 1px solid #f1f3f5;
+}
+
+.summary_cell_status_container {
+  border: 0;
+  height: 30px;
+  margin: 0px 10px;
+  line-height: 100%;
+  border-radius: 2px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.status_summary {
+  height: 80%;
+  transition: all 0.2s ease-in-out;
+}
+
+.status_summary:hover {
+  border-radius: 2px;
+  height: 100%;
+  transition: all 0s ease-in-out;
+}
+
+.summary_cell_date_container {
+  // flex: 1;
+  // position: relative;
+  // background: #C4C4C4;
+  // height: 26px;
+  // line-height: 26px;
+  // border-radius: 13px;
+  // margin: 8px 16px;
+  // color: white;
+  // text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+  flex-direction:column;
+  width: 100%;
+  cursor: pointer;
+}
+
+.summary_cell_date_container_rule {
+  color: #707070;
+  font-size: 11px;
+  align-items: center;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  padding-top: 2px;
+}
+
+.summary_cell_date_container_text {
+  line-height: 24px;
+  height: 24px;
+  color: #111111;
+  font-size: 13px;
+}
+
+.summary_cell_date_container:hover .summary_cell_date_container_span:after {
+  content: attr(hovercontents);
+}
+
+.summary_cell_date_container .summary_cell_date_container_span:after {
+  content: attr(contents);
+}
+
+.summary_cell_section_title{
+  margin-left: -7px;
+  width: auto;
+}
+
+.summary_cell_section_expand{
+  margin: 1px 0 0 3px;
+  cursor: pointer;
+}
+
+.ant-tooltip-inner{
+  font-size: 13px;
+}
+
+.ant-menu-horizontal{
+  margin: 5px 32px 0px 25px !important;
+  font-size: 13px !important;
+  line-height: 25px !important;
+}
+
+.dateTimeSlotCell{
+  width: 100%;
+    height: 100%;
+    margin: auto 10px;
+    position: relative;
+    padding-top: 7px;
+}
+
+.dateTimeSlotCell_Warper{
+  position: absolute;
+  height: 22.5px;
+  width: 100%;
+  border-radius: 30px;
+  color: white;
+  margin: 5px 0px;
+  background: #1b1c1d6b;
+}
+
+.dateTimeSlotCell_Warper2{
+  position: absolute;
+  height: 22.5px;
+  margin: 5px 0px;
+  width: 90%;
+  border-radius: 30px 0 0 30px;
+  color: white;
+  background:#28252B;
+}
+
+.date_field_split{
+  display: inline-block;
+  width:4%;
+  color:white;
+  text-align: center;
+}
+
+.start_date_left{
+  text-align: right !important;
+  overflow:hidden !important;
+}
+
+.end_date_right{
+  text-align: left !important;
+  overflow:hidden !important;
+}
+
+.checkBoxSummaryWarp{
+  width:100%;
+  text-align: center;
+}
+
+.no_pointer {
+  cursor: unset;
+}
